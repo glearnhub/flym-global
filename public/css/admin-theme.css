@@ -1,0 +1,84 @@
+/* FLY-M Global Admin — fixed Navy / Gold / White brand theme */
+
+.fi-sidebar,
+.fi-sidebar-header,
+.fi-sidebar-nav {
+    background-color: #001D23 !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.fi-sidebar .fi-logo {
+    color: #ffffff !important;
+}
+
+.fi-sidebar-group-label {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.fi-sidebar-group-button {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.fi-sidebar-item-button,
+.fi-sidebar-item-label {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.fi-sidebar-item-icon {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.fi-sidebar-item-grouped-border {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.fi-sidebar-item-button:hover,
+.fi-sidebar-item-button:hover .fi-sidebar-item-label {
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    color: #EFBF04 !important;
+}
+
+.fi-sidebar-item-button:hover .fi-sidebar-item-icon {
+    color: #EFBF04 !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-button,
+.fi-sidebar-item-active .fi-sidebar-item-label {
+    background-color: rgba(239, 191, 4, 0.12) !important;
+    color: #EFBF04 !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-icon {
+    color: #EFBF04 !important;
+}
+
+.fi-sidebar-nav-tenant-menu-ctn button,
+.fi-sidebar-nav-tenant-menu-ctn button span {
+    color: #ffffff !important;
+}
+
+.fi-sidebar-nav-tenant-menu-ctn button:hover {
+    background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Topbar — white with a gold brand accent line */
+.fi-topbar nav {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #EFBF04 !important;
+}
+
+/* Force the light (white) look on auth pages (login, password reset)
+   regardless of the visitor's OS/browser dark-mode preference, since the
+   brand identity here is fixed navy/gold/white, not a togglable theme. */
+body {
+    background-color: #F8F8F9 !important;
+}
+
+.fi-simple-main {
+    background-color: #ffffff !important;
+}
+
+.fi-simple-header-heading,
+.fi-simple-header-subheading {
+    color: #001D23 !important;
+}
